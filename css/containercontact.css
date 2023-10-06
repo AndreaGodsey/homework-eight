@@ -1,0 +1,41 @@
+.containercontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containercontact .leftpara4 {
+  height: 380px;
+}
+.containercontact .leftpara4 .titleofpara4 {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.containercontact .leftpara4 .leftparaedit {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containercontact .rightimage4 .Phone {
+  background-image: url(../images/Phone.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

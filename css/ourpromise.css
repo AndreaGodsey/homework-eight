@@ -1,0 +1,30 @@
+.ourpromise {
+  background-color: brown;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ourpromise .ourpromisetitle {
+  font-size: 30px;
+  font-family: Baskervile-Italic;
+}
+@font-face {
+  font-family: Baskervile-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+.ourpromise .ourpromisepara {
+  font-size: 20px;
+  font-family: Baskervile-Regular;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}

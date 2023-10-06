@@ -1,0 +1,38 @@
+.containerhome2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: honeydew;
+}
+.containerhome2 .leftpara {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 10px;
+  width: 900px;
+}
+.containerhome2 .leftpara .titleofpara {
+  font-size: 30px;
+  color: brown;
+}
+@font-face {
+  font-family: Baskerville-Italic;
+  src: url(../fonts/Baskervville/Baskervville-Italic.ttf);
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containerhome2 .rightimage .Sandwiches {
+  background-image: url(../images/Sandwiches.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
